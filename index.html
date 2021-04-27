@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, 
+        initial-scale=1, shrink-to-fit=no">
+  
+  <title>Athena Metrics</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styleIndex.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<!-- ICON-->
+
+<link rel = "icon" href = 
+"img/logo.png" 
+        type = "image/x-icon">
+
+</head>
+
+<body>
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+			
+
+	
+	   <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg bg-dark>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+		
+	    <button type="button" class= "button" id = "GetDataButton"  onclick="NewTab()">Get Started</button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                   
+		<ul class="navbar-nav ml-auto">
+		 <li class="nav-item">
+              <a class="nav-link" href="#Mission">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">Data</a>
+            </li>
+           
+		  </ul>
+         
+        </div>
+      </nav>
+
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+		
+		<!--LOGO-->
+		  <p><img id="logo" src="img/LOGO.png" alt="logo"></p> 
+		  </br>
+		<!--TEXT-->
+          <h2 class="big-heading">A tool to get insight into gender disparities in institutions through data analytics</h2>
+          <button type="button" class="button" id="TutorialButton" onclick= "location.href = 'html/ViewTutorial.html'"> View Tutorial</button>
+        </div>
+
+        <div>
+          <img class="title-image" src="img/blond.jpg" alt="stats">
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+  
+    <!-- Mission -->
+
+<section id="Mission">
+<div class="container-fluid">
+
+<!--LOGO IN THE LEFT-->
+<div class= "left">
+    <div class="row">
+	    <div class="column">
+			<div class="LOGOcard" class="col-lg-6 mb-4">
+			<img src="img/LOGO.png" class="card-img-top" alt="logo">
+			</div>
+	    </div>
+	</div>
+    </div>
+</div>
+	
+<!--MISSION CARD -->
+<div class= "right">
+ 
+    <div class="card" id="MissionCard" class="col-lg-6 mb-4">
+		<div class="column">
+			<div class="card-body">
+			<h4 class="card-title">MISSION</h4>
+			
+			<p class="card-text">  <b>Our Mission is to divulge <a href="html/ViewData.html">data</a> 
+			on existing gender disparities in the workforce, with a focus in the IT industry </b></p>
+			
+			<p class="card-text">We also aim to provide a simple, accessible <b> <a href="html/GetData.html">online tool </a></b> 
+			for organizations to measure possible gender disparities in their own institutions </p>
+		
+			<a href="php/form.php" class="btn MissionButton">Contact us</a>
+			</div>
+	    </div>
+    </div>
+</div>
+</section>
+
+
+ <!-- About -->
+
+  <section class="colored-section" id="About">
+    
+	<div class="card" id= "AboutCard">
+        <img src="img/work.jpg" class="card-img-top" id = "AboutImage"alt="team">
+	<div class="card-body">
+    <h3 class="card-title">About</h3>
+    <p class="card-text"><b>Athena Metrics</b> are José Miguel Gonzalez and Ana Ospitaletche </p>
+    <a href="html/about.html" class="btn btn-success">Read More</a>
+	</div>
+	</div>
+    </div>
+ 
+  
+  
+  <!--Data-->
+
+    <div class="card" id= "DataCard">
+        <img src= "img/digital.jpg" class="card-img-top" id = "DataImage"alt="data">
+	<div class="card-body">
+    <h3 class="card-title">Data</h3>
+    <p class="card-text"><b>Want to know more? Visit our blog</b></p>
+    <a href="html/blog.html" class="btn btn-success">Go to Blog</a>
+	</div>
+	</div>
+ 
+  </section>
+  
+<!-- Back to Top Button-->
+
+<button onclick="topFunction()" id="TopButton" title="Go to top">Back to Top</button>
+
+<!--Javascript scripts -->
+
+<script>
+  //Get the button:
+TopBtn = document.getElementById("TopButton");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    TopBtn.style.display = "block";
+  } else {
+    TopBtn.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+  
+  </script>
+  
+  <script>
+    // When the user clicks on the Get Started button, open a new tab
+
+        function NewTab() {
+            window.open(
+              "https://athenametrics.shinyapps.io/Athena_App/", "_blank");
+        }
+    </script>
+ 
+  <!-- Footer -->
+	<div id= "footer">
+		<footer id="footer">
+    
+			<p>© Copyright Athena Metrics 2021 </p>
+    
+		</footer>
+	</div>
+
+</body>
+
+</html>
