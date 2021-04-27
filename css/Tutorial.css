@@ -1,0 +1,161 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+h1{
+	
+	text-align: center;
+	margin-top: 2%;
+	color: white;
+}
+	
+body{
+	
+	background-image: url("../img/women.jpg");
+	background-image:cover;
+	background-image: no-repeat;
+	background-image: center;
+	
+}
+
+
+.button{
+	color: white;
+	border: none;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	padding: 10px 28px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#GetDataButton{
+	
+	background-color: #9510AC;
+
+}
+
+/* Navigation Bar */
+nav{
+	
+	position: sticky;
+}
+
+.navbar {
+  padding: 0 0 1.5rem;
+  background-color:white;
+   
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+ 
+}
+
+.nav-item {
+  padding: 0 35px  0 20px;
+  border-right:2px groove #9510AC;
+  
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: black;
+  
+}
+
+/* Slides Section */
+
+img{
+	
+	height: 400px;
+	
+}
+
+.carousel{
+	
+	height: 400px;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 20%;
+	opacity: 0.9;
+	
+}
+.carousel-indicators{
+	 bottom: -110px;
+	
+}
+.steps{
+	
+	width: 100%;
+	margin-top: 5%;
+	
+	
+}
+.carousel-inner{
+	
+	width: 90%;
+	
+}
+
+.text{
+	
+	float:right;
+	color:#9510AC;
+	
+}
+.carousel-control-prev{
+	
+	margin-left: -120px;
+	
+}
+
+.carousel-control-next{
+	
+	
+	
+}
+
+.carousel-item{
+	
+	width: 100%;
+	
+}
+
+.carousel-caption{
+	
+	float: right;
+	margin-right: 5%;
+	
+}
+
+/* Footer Section */
+
+#footer{
+	  
+	background-color:black;
+	display:block;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+	color: white;
+	text-align: center;
+	
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }  
+  }
+

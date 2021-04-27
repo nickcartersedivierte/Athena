@@ -103,7 +103,7 @@ nav{
 	
 }
 
-#SampleButton{
+#TutorialButton{
 	
 	background-color: #23272B;
 	margin-left:30px;
@@ -134,8 +134,9 @@ nav{
   font-size: 14px; 
 }
 
+/* Add a dark-grey background on hover */
 #TopButton:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #555; 
 }
 
 
@@ -290,29 +291,6 @@ padding-top: 5%;
   }
 }
 
-
-/* Testimonial Section */
-
-#testimonials {
-  background-color: white;
-}
-
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
-
-/* Team section */
-.team-image {
-  width: 40%;
-  margin: 20px;
-}
 
 
 /* Footer Section */

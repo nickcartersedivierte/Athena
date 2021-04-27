@@ -1,0 +1,122 @@
+body{
+	
+	background-image: url("../img/woman.jpg");
+	background-image:cover;
+	background-image: no-repeat;
+	background-image: center;
+	
+}
+h1, h2, h3, h4, h5, h6{
+	
+	 
+  font-family: "Montserrat-Bold";
+  
+}
+
+/*Bar*/
+
+#navbar{
+	
+	background-color: white;
+	
+}
+
+
+/*Styling of cards for About and Team*/
+
+#about{
+
+width: 40%;	
+margin-top:5%;
+margin-bottom:20px;	
+margin-left:5%;
+position: relative;
+float:left;	
+border: none;
+border-radius:0px;
+text-align: left;
+
+}
+
+#Team{
+	
+	width: 40%;	
+	margin-top:5%;
+	margin-bottom:20px;	
+	margin-right:5%;
+	position: relative;
+	text-align: left;
+	float:right;
+	border: none;
+	}
+
+
+.card{
+	
+	padding: 2px 16px 16px;
+	opacity: 0.95;
+	position: relative;
+
+}
+
+
+/*Adding a shadow when hovering on top of the card*/
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
+
+#purpleSection{
+	
+	background-color: #E6CCED;
+	width: 100%;
+	height: 100%;
+	margin-top: 2%;
+	padding: 2px 16px 10px;
+}
+
+.avatar {
+	
+	width: 15%;
+	height: 100px;
+	margin-top: 5%;
+	float:left;
+	position: relative;
+	margin-right:5%;
+
+}
+
+#text{
+	
+	position: relative;
+	padding: 10px 10px 10px 10px;
+	
+}
+
+/*BUTTONS*/
+
+.button{
+	color: white;
+	border: none;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	padding: 10px 28px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#BackButton{
+	
+	background-color: #23272B;
+	margin-right: 1000px;
+}
+
+#GetDataButton{
+		background-color: #9510AC;
+}
+
+.MissionButton{
+	
+	background-color: #218838;
+}

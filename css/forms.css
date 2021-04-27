@@ -1,0 +1,131 @@
+
+h1, h2, h3, h4, h5, h6{
+	
+	 
+  font-family: "Montserrat-Bold";
+    text-align: center;
+}
+
+
+/*BUTTONS*/
+
+
+.button{
+	color: white;
+	border: none;
+	text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	padding: 10px 28px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#RegisterButton{
+	
+		background-color: #9510AC;
+		margin-right: 20px ;
+
+	
+}
+
+#BackButton{
+	
+	background-color: #23272B;
+	margin-right: 1100px;
+}
+
+#loginButton {
+	
+	margin-top: 10px;
+	
+}
+
+.cancelbtn {
+  width: auto;
+  background-color: #23272B;
+}
+
+/* These adds hover effect to the buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+/*IMAGE TO THE LEFT*/
+
+.image{
+	
+	width: 50%;
+	float:left;
+	margin-top: 10px;
+	height: 600px;
+}
+
+
+
+/* FORM */
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  width: 50%;
+  float: right;
+  margin-top: 10px;
+
+  
+}
+
+
+.formContainer{
+	
+	height: 600px;
+	
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  
+}
+
+/* Avatar image */
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 26px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 10px;
+  
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}

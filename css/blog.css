@@ -1,0 +1,88 @@
+body {
+  font-family: "Montserrat-Bold";
+  padding: 20px;
+  background: white;
+}
+
+p{
+	font-family: "Montserrat-Bold";
+	font-size: 18px;
+	}
+
+/* Title */
+.header {
+  padding: 30px;
+  font-size: 80px;
+  text-align: center;
+  background-image: url("../img/woman.jpg");
+  color: black;
+
+}
+
+/* Creating two columns. Putting them besides */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+
+/* Post image */
+.img {
+  background-color: #aaa;
+  width: 100%;
+  height:300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-color: #AAAAAA;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.figures{
+	
+	width: 75%;
+	height: 550px;
+	
+	
+}
+
+/* Footer */
+#footer{
+	  
+	background-color:black;
+	display:block;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+	color: white;
+	text-align: center;
+	
+}
+
+/*Making the layout responsive*/
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}

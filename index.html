@@ -48,7 +48,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 		
-	    <button type="button" class= "button" id = "GetDataButton"onclick= "location.href = 'html/GetData.html'">Get Started</button>
+	    <button type="button" class= "button" id = "GetDataButton"  onclick="NewTab()">Get Started</button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                    
@@ -80,7 +80,7 @@
 		  </br>
 		<!--TEXT-->
           <h2 class="big-heading">A tool to get insight into gender disparities in institutions through data analytics</h2>
-          <button type="button" class="button" id="SampleButton" onclick= "location.href = 'html/ViewSample.html'"> View Sample</button>
+          <button type="button" class="button" id="TutorialButton" onclick= "location.href = 'html/ViewTutorial.html'"> View Tutorial</button>
         </div>
 
         <div>
@@ -125,7 +125,7 @@
 			<p class="card-text">We also aim to provide a simple, accessible <b> <a href="html/GetData.html">online tool </a></b> 
 			for organizations to measure possible gender disparities in their own institutions </p>
 		
-			<a href="html/form.html" class="btn MissionButton">Contact us</a>
+			<a href="php/form.php" class="btn MissionButton">Contact us</a>
 			</div>
 	    </div>
     </div>
@@ -155,8 +155,8 @@
         <img src= "img/digital.jpg" class="card-img-top" id = "DataImage"alt="data">
 	<div class="card-body">
     <h3 class="card-title">Data</h3>
-    <p class="card-text"><b>lalallalalal</b></p>
-    <a href="html/ViewData.html" class="btn btn-success">View Data</a>
+    <p class="card-text"><b>Want to know more? Visit our blog</b></p>
+    <a href="html/blog.html" class="btn btn-success">Go to Blog</a>
 	</div>
 	</div>
  
@@ -190,15 +190,24 @@ function topFunction() {
 }
   
   </script>
+  
+  <script>
+    // When the user clicks on the Get Started button, open a new tab
+
+        function NewTab() {
+            window.open(
+              "https://athenametrics.shinyapps.io/Athena_App/", "_blank");
+        }
+    </script>
  
   <!-- Footer -->
-<div id= "footer">
-  <footer id="footer">
+	<div id= "footer">
+		<footer id="footer">
     
-        <p>© Copyright Athena Metrics 2021 </p>
+			<p>© Copyright Athena Metrics 2021 </p>
     
-  </footer>
-</div>
+		</footer>
+	</div>
 
 </body>
 
