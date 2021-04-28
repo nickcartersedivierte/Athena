@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, 
-        initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   
   <title>Athena Metrics</title>
 
@@ -37,29 +37,33 @@
 
     <!-- Nav Bar -->
 
-      <nav class="navbar navbar-expand-lg bg-dark>
+	<div id="navbar">
+    <nav>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
             <span class="navbar-toggler-icon"></span>
         </button>
 		
-	    <button type="button" class= "button" id = "GetDataButton"  onclick="NewTab()">Get Started</button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">       
-		<ul class="navbar-nav ml-auto">
-		 <li class="nav-item">
-              <a class="nav-link" href="../index.html">Back</a>
-            </li>
-        </ul>
+                   
+		
+              <button type="button" class= "button" id = "BackButton" onclick= "location.href = '../index.html'">Back</button>
+       
+		
+			<button type="button" class= "button" id = "GetDataButton" onclick="NewTab()">Get Started</button>
+          
         </div>
       </nav>
-	  
+
+</div>
+
+  
 	  
 	<h1>Athena Metrics Tutorial</h1>
-	  
+	</br> 
+	 
 	<!-- Bootstrap's Carousel for the Tutorial -->
-	  
-	<div id="carouselCaptions" class="carousel slide" data-ride="carousel">
+	<section id = "Slides">  
+	<div id="carouselCaptions" class="carousel slide" data-ride="carousel" >
 		<ol class="carousel-indicators">
 			<li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
 			<li data-target="#carouselCaptions" data-slide-to="1"></li>
@@ -67,6 +71,8 @@
 			<li data-target="#carouselCaptions" data-slide-to="3"></li>
 			<li data-target="#carouselCaptions" data-slide-to="4"></li>
 		</ol>
+		
+	<!--Tutorial slides-->	
     
 	<div class="carousel-inner">
     <div class="carousel-item active">
@@ -121,22 +127,26 @@
 		<span class="sr-only">Next</span>
     </a>
 </div>
-		
-		
-		
-		
-		
-		
-		
-    <!-- Footer -->
+</section>
+
+	
+	<!-- VIDEO tutorial-->	
+	<section id="videoSection">
+		<h3 id ="videoText">Video Tutorial</h3>
+	<video class ="video" controls>
+		<source src="../img/tutorial/tutorial.mp4" type="video/mp4">
+    </video>		
+	</section>	
+
+
+<!-- Footer -->
 	<div id= "footer">
 		<footer id="footer">
-    
-			<p>© Copyright Athena Metrics 2021 </p>
-    
-		</footer>
+    		<p>© Copyright Athena Metrics 2021 </p>
+    	</footer>
 	</div>
-		
+  
+	
 		
 	<!--Javascript scripts -->
 	<script>
@@ -146,5 +156,5 @@
               "https://athenametrics.shinyapps.io/Athena_App/", "_blank");
         }
     </script>
-
+	
 </body>
