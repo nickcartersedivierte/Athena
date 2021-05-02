@@ -23,6 +23,14 @@ p{
 	display: none;
 	}
 
+
+.stats{
+	
+	width:100%;
+	height:400px;
+	margin-top:2%;
+	margin-bottom: 5%;
+}
 /*Buttons*/
 
 .button {color: white;
