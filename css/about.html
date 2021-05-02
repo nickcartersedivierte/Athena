@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Athena About</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/about.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<!-- ICON-->
+	<link rel = "icon" href = "../img/logo.png" 
+        type = "image/x-icon">
+
+</head>
+
+<body>
+
+
+<!-- Navigation Bar Section -->
+<div id="navbar">
+<nav class="navbar navbar-expand-lg">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+		
+	    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                   
+		<ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <button type="button" class= "button" id = "BackButton" onclick= "location.href = '../index.html'">Back</button>
+            </li>
+		</ul>
+		
+		<ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+			<button type="button" class= "button" id = "GetDataButton" onclick="NewTab()">Get Started</button>
+            </li>
+		</ul>
+                    
+        </div>
+      </nav>
+
+</div>
+
+
+   <!-- About Section -->
+
+	<div class="card" id= "about">
+		
+		<h1> About Athena Metrics </h1>
+	
+		<div id="purpleSection">
+		<h3><b> Why we chose to work in the Gender Parity field?</b></h3>
+		<p>We are both profoundly interested in equality matters, Ana being a woman 
+		and both of us being part of the LGTBQ community, we feel is important to visibilize and understand dynamics that not  
+		only affect us in a personal level, but that affect millions of others in the world. </br>
+		</br><b>The first step towards changing an unjust situtation is becoming aware of it.</b></br>
+		If you want to access statistical information from serious sources and become aware, 
+		 click the button below :) </br>
+		</p>
+		</div>
+		<a href="DataHome.html" class="button MissionButton">View Data</a>
+	</div>
+	
+	
+	<!-- Team  Section -->
+
+	<div class="card" id= "Team">
+	
+	<!-- Jose  Section -->
+	
+		<h1> Team </h1>
+		<div id= "member1">
+			<img src="../img/Jose.jpeg" class="avatar" alt="Jose">
+			
+			<p id="text"><b>José</b> is from Venezuela and has a background in Data Analysis in Businesses. 
+			He has been living in Dublin for 7 years and is graduating from CCT College with a Honours Degree in Computer Science.
+			He is passionate about the Data Analytics field for business. </p> 
+		</div>
+		
+	<!-- Ana  Section -->	
+		<div id= "member2">
+			<img src="../img/Ana.jpg" class="avatar" alt="Ana">
+			<p id="text"> <b>Ana </b> is from Uruguay and has a background in Literature and Music. 
+			She lived in Dublin for 4 years and is graduating from CCT College with a Honours Degree in Computer Science.
+			She is passionate about Web Design and Development and Gender Studies.</p>
+		</div>
+		<p> <b>Get in touch with us!</b></p>
+		
+		<a href="../php/form.php" class="button MissionButton">Contact us</a>
+
+		</div>
+	
+
+
+
+	<!-- Javascript scripts Section -->
+
+	<!-- This script makes it that when clicking on the Get Started button a new window is opened -->
+	<script>
+        function NewTab() {
+            window.open(
+              "https://athenametrics.shinyapps.io/Athena_App/", "_blank");
+        }
+    </script>
+ 
+
+
+
+
+
+
+
+</body>
